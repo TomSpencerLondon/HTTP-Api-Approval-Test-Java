@@ -1,0 +1,32 @@
+#####DATE
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+#####COOKIE
+x-cache=hit
+charset=UTF-8
+vary=Accept-Encoding
+access-control-allow-origin=*
+CF-Cache-Status=DYNAMIC
+#####CF-REQUEST-ID
+#####REPORT-TO
+NEL={"report_to":"cf-nel","max_age":604800}
+Server=cloudflare
+#####CF-RAY
+Content-Encoding=gzip
+alt-svc=h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "post code": "20500",
+    "country": "United States",
+    "country abbreviation": "US",
+    "places": [
+        {
+            "place name": "Washington",
+            "longitude": "-77.0355",
+            "state": "District of Columbia",
+            "state abbreviation": "DC",
+            "latitude": "38.8946"
+        }
+    ]
+}
